@@ -20,6 +20,7 @@
         <fileset id="fileset2" name="Spring 应用上下文" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext-dao.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext-service.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
