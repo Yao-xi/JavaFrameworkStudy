@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="YXArchetype:war">
+    <output-path>$PROJECT_DIR$/YXArchetype/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>YXArchetype</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="YXArchetype.war">
+      <element id="artifact" artifact-name="YXArchetype:war exploded" />
+    </root>
+  </artifact>
+</component>

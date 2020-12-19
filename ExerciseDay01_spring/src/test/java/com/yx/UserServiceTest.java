@@ -1,15 +1,16 @@
-package com.itheima.spring.day01.service;
+package com.yx;
 
+import com.yx.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class UserServiceATest {
+public class UserServiceTest {
     
     @Test
     public void testFindAll() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-        UserServiceA userServiceA = (UserServiceA) ac.getBean("userServiceA");
-        userServiceA.findAll(1, 2).getList().forEach(System.out::println);
+        UserService userService = (UserService) ac.getBean("userService");
+        userService.findAll(1, 2).getList().forEach(System.out::println);
     }
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="smartjump">
+    <option name="java2mybatisState" value="false" />
+    <option name="mybatis2javaState" value="false" />
+  </component>
+</project>

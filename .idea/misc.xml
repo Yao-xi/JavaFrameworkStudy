@@ -5,7 +5,15 @@
     <groovy codeStyle="LEGACY" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/AAA" />
     <file type="web" url="file://$PROJECT_DIR$/day01_spring" />
+    <file type="web" url="file://$PROJECT_DIR$/day02_spring_anno" />
+    <file type="web" url="file://$PROJECT_DIR$/destaetadafaf" />
+    <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring" />
+    <file type="web" url="file://$PROJECT_DIR$/testttste" />
+    <file type="web" url="file://$PROJECT_DIR$/yx-project" />
+    <file type="web" url="file://$PROJECT_DIR$/YXArchetype" />
+    <file type="web" url="file://$PROJECT_DIR$/YXArchetypetest" />
   </component>
   <component name="MarkdownProjectSettings">
     <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.25" maxImageWidth="0" synchronizePreviewPosition="true" highlightPreviewType="LINE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="true" showSelectionInPreview="true" lastLayoutSetsDefault="false">
@@ -54,6 +62,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/day01_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/aaa/pom.xml" />
+        <option value="$PROJECT_DIR$/ExerciseDay01_spring/pom.xml" />
       </list>
     </option>
   </component>

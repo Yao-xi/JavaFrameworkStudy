@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yx-project:war">
+    <output-path>$PROJECT_DIR$/yx-project/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>yx-project</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="YXArchetype.war">
+      <element id="artifact" artifact-name="yx-project:war exploded" />
+    </root>
+  </artifact>
+</component>

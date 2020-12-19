@@ -1,14 +1,15 @@
-package com.itheima.spring.day01.service.impl;
+package com.yx.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.itheima.spring.day01.dao.UserMapper;
-import com.itheima.spring.day01.domain.User;
-import com.itheima.spring.day01.service.UserServiceA;
+import com.yx.dao.UserMapper;
+import com.yx.domain.User;
+import com.yx.service.UserService;
+
 
 import java.util.List;
 
-public class UserServiceAImpl implements UserServiceA {
+public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
     
     public void setUserMapper(UserMapper userMapper) {

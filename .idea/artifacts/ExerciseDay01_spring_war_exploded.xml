@@ -1,26 +1,26 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="day01_spring:war exploded">
-    <output-path>$PROJECT_DIR$/day01_spring/target/day01_spring</output-path>
+  <artifact type="exploded-war" name="ExerciseDay01_spring:war exploded">
+    <output-path>$PROJECT_DIR$/ExerciseDay01_spring/target/ExerciseDay01_spring</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>day01_spring</module>
+        <module>ExerciseDay01_spring</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="day01_spring" />
+          <element id="module-output" name="ExerciseDay01_spring" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.21" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.47" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.6.RELEASE" />
@@ -28,12 +28,13 @@
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.6" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.10" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:2.0" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/day01_spring/target/day01_spring/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/ExerciseDay01_spring/target/ExerciseDay01_spring/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="day01_spring/web/Web" />
+      <element id="javaee-facet-resources" facet="ExerciseDay01_spring/web/Web" />
     </root>
   </artifact>
 </component>

@@ -16,14 +16,14 @@
     </bean>
     
     <!--配置service-->
-    <bean id="userServiceA" class="com.itheima.spring.day01.service.impl.UserServiceAImpl">
+    <bean id="userService" class="com.yx.service.impl.UserServiceImpl">
         <property name="userMapper" ref="userMapper"/>
     </bean>
     
     <!--spring整合mybatis后控制创建连接的对象-->
     <bean class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="ds"/>
-        <property name="typeAliasesPackage" value="com.itheima.spring.day01.domain"/>
+        <property name="typeAliasesPackage" value="com.yx.domain"/>
         <property name="plugins">
             <bean class="com.github.pagehelper.PageInterceptor"/>
         </property>
@@ -31,6 +31,6 @@
     
     <!--加载mybatis映射配置的扫描,作为spring的bean管理-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.itheima.spring.day01.dao"/>
+        <property name="basePackage" value="com.yx.dao"/>
     </bean>
 </beans>
