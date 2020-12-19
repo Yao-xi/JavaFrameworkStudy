@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day02_spring_anno" />
     <file type="web" url="file://$PROJECT_DIR$/destaetadafaf" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring" />
+    <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring2" />
     <file type="web" url="file://$PROJECT_DIR$/testttste" />
     <file type="web" url="file://$PROJECT_DIR$/yx-project" />
     <file type="web" url="file://$PROJECT_DIR$/YXArchetype" />
@@ -64,6 +65,7 @@
         <option value="$PROJECT_DIR$/day01_spring/pom.xml" />
         <option value="$PROJECT_DIR$/aaa/pom.xml" />
         <option value="$PROJECT_DIR$/ExerciseDay01_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ExerciseDay01_spring2/pom.xml" />
       </list>
     </option>
   </component>

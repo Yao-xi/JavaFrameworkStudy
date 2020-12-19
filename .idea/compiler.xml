@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ExerciseDay01_spring" />
+        <module name="ExerciseDay01_spring2" />
         <module name="day01_spring" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="day02_spring_anno" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
+      <module name="ExerciseDay01_spring2" target="1.8" />
       <module name="testttste" target="1.8" />
       <module name="yx-project" target="1.8" />
       <module name="YXArchetype" target="1.8" />
