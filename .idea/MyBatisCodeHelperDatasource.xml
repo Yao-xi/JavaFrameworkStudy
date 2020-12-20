@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="baseClassSearchXml" value="true" />
+        <option name="deleteByPrimayKeyEnabled" value="false" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="insertSelectiveMethodEnabled" value="false" />
+        <option name="javaMapperPackage" value="com.itheima.dao" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/day02_spring/src/main/java" />
+        <option name="javaModelPackage" value="com.itheima.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/day02_spring/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="day02_spring" />
+        <option name="lombokAllArgConstructor" value="true" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="lombokNoArgsConstructor" value="true" />
+        <option name="methodNameForProjectList">
+          <list>
+            <option value="findAll" />
+            <option value="findById" />
+            <option value="deleteById" />
+          </list>
+        </option>
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="ExerciseDay01_spring2">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.itheima.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/java" />
+                  <option name="javaModelPacakge" value="com.itheima.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/java" />
+                  <option name="xmlPackage" value="com.itheima.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="day02_spring">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.itheima.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/day02_spring/src/main/java" />
+                  <option name="javaModelPacakge" value="com.itheima.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/day02_spring/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.itheima.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/day02_spring/src/main/java" />
+                  <option name="javaServicePackage" value="com.itheima.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/day02_spring/src/main/java" />
+                  <option name="xmlPackage" value="com.itheima.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/day02_spring/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="mybatisPlusStaticField" value="false" />
+        <option name="noJdbcType" value="true" />
+        <option name="p3CComment" value="true" />
+        <option name="selectByPrimaryKeyEnabled" value="false" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="db16:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="deleteByPrimayKeyEnabled" value="false" />
+                  <option name="generatedKey" value="id" />
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="day02_spring" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+        <option name="xmlMapperPackage" value="com.itheima.dao" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/day02_spring/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
