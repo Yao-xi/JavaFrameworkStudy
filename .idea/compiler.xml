@@ -11,6 +11,7 @@
         <module name="day01_spring" />
         <module name="day02_spring" />
         <module name="ExerciseDay01_spring" />
+        <module name="day03_spring_aop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="day01_spring" target="1.8" />
       <module name="day02_spring" target="1.8" />
       <module name="day02_spring_anno" target="1.8" />
+      <module name="day03_spring_aop" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />
