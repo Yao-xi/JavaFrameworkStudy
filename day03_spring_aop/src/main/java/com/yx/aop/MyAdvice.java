@@ -2,7 +2,6 @@ package com.yx.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
@@ -11,7 +10,7 @@ import org.springframework.stereotype.Component;
  * 增强类 切面类
  */
 @Component
-@Aspect
+// @Aspect
 public class MyAdvice {
     
     @Pointcut("execution(* com.yx.service..*Service.*(..))")
