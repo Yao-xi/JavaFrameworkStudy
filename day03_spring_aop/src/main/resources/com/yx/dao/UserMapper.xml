@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yx.dao.UserMapper">
+    <resultMap id="BaseResultMap" type="com.yx.domain.User">
+        <!--@Table `user`-->
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="email" property="email"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,
+        username,
+        email
+    </sql>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.yx.domain.User" useGeneratedKeys="true">
+        INSERT INTO `user` (username, email)
+        VALUES (#{username}, #{email})
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.yx.domain.User">
+        UPDATE `user`
+        SET username = #{username},
+            email    = #{email}
+        WHERE id = #{id}
+    </update>
+    <select id="findAll" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM `user`
+    </select>
+    <select id="findById" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM `user`
+        WHERE id = #{id}
+    </select>
+    <delete id="deleteById">
+        DELETE
+        FROM `user`
+        WHERE id = #{id}
+    </delete>
+</mapper>

@@ -7,8 +7,6 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-
 /**
  * 增强类 切面类
  */
@@ -34,9 +32,10 @@ public class MyAdvice {
     public Object around(ProceedingJoinPoint pjp) {
         Object ret = null;
         try {
+            // 获取参数数组
             Object[] args = pjp.getArgs();
-            System.out.println(Arrays.toString(args));
-            ret = pjp.proceed();
+            // 执行原方法
+            ret = pjp.proceed(args);
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
