@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ExerciseDay01_spring2" />
         <module name="day01_spring" />
         <module name="day02_spring" />
         <module name="ExerciseDay01_spring" />
         <module name="day03_spring_aop" />
+        <module name="day05_springmvc" />
+        <module name="ExerciseDay01_spring2" />
         <module name="day04_spring" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="day02_spring_anno" target="1.8" />
       <module name="day03_spring_aop" target="1.8" />
       <module name="day04_spring" target="1.8" />
+      <module name="day05_springmvc" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />

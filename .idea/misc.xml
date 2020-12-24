@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day02_spring_anno" />
     <file type="web" url="file://$PROJECT_DIR$/day03_spring_aop" />
     <file type="web" url="file://$PROJECT_DIR$/day04_spring" />
+    <file type="web" url="file://$PROJECT_DIR$/day05_springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/destaetadafaf" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring2" />
@@ -72,6 +73,7 @@
         <option value="$PROJECT_DIR$/day02_spring/pom.xml" />
         <option value="$PROJECT_DIR$/day03_spring_aop/pom.xml" />
         <option value="$PROJECT_DIR$/day04_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/day05_springmvc/pom.xml" />
       </list>
     </option>
   </component>
