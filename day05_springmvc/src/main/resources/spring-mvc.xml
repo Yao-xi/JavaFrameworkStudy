@@ -11,7 +11,7 @@
                                 expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     
-    <!--mvc注解驱动 (1.mvc注解,2.强制三大组件工作)-->
+    <!--mvc注解驱动 (mvc注解,强制三大组件工作 等其他作用)-->
     <mvc:annotation-driven/>
     
     <!--放行指定类型静态资源配置方式-->
