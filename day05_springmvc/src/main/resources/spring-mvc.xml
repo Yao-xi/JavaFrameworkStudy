@@ -6,18 +6,22 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
     
     <!--扫描加载所有的控制类类-->
-    <context:component-scan base-package="com.yx">
+    <context:component-scan base-package="com.yx" use-default-filters="false">
         <context:include-filter type="annotation"
                                 expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     
+    <!--mvc注解驱动 (1.mvc注解,2.强制三大组件工作)-->
     <mvc:annotation-driven/>
     
     <!--放行指定类型静态资源配置方式-->
-    <!--<mvc:resources mapping="/img/**" location="/img/"/>-->
-    <!--<mvc:resources mapping="/js/**" location="/js/"/>-->
-    <!--<mvc:resources mapping="/css/**" location="/css/"/>-->
+    <!--
+        <mvc:resources mapping="/img/**" location="/img/"/>
+        <mvc:resources mapping="/js/**" location="/js/"/>
+        <mvc:resources mapping="/css/**" location="/css/"/>
+    -->
     
     <!--SpringMVC提供的通用资源放行方式-->
+    <!--当请求路径找不到时,让tomcat直接找-->
     <mvc:default-servlet-handler/>
 </beans>

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
     @RequestMapping("/save")
     public String save() {
-        System.out.println("user mvc controller is running ...");
+        System.out.println("user mvcEnableWebMvc controller is running ...");
         return "success.jsp";
     }
 }
