@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function() {
+            $('#btn1').on('click', function() {
+                $.ajax({
+                    url: 'http://localhost:8080/server/ajax/show1',
+                    data: {},
+                    dataType: 'text',
+                    success: data => alert(data)
+                });
+            });
+            
+            $('#btn2').on('click', function() {
+                let data = {name: '张三', age: 23};
+                $.ajax({
+                    url: 'http://localhost:8080/server/ajax/show2',
+                    data: data,
+                    dataType: 'text',
+                    success: data => alert(data)
+                });
+            });
+            
+            $('#btn3').on('click', function() {
+                let data = {name: '张三', age: 23};
+                $.ajax({
+                    url: 'http://localhost:8080/server/ajax/show3',
+                    method: 'POST',
+                    data: JSON.stringify(data),
+                    contentType: 'application/json;charset=UTF-8',
+                    dataType: 'text',
+                    success: data => alert(data)
+                });
+            });
+            
+        });
+    </script>
+</head>
+<body>
+    <button id="btn1">show1</button>
+    <button id="btn2">show2</button>
+    <button id="btn3">show3</button>
+    <button id="btn4">show4</button>
+    <button id="btn5">show5</button>
+</body>
+</html>

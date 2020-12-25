@@ -12,7 +12,14 @@
     </context:component-scan>
     
     <!--mvc注解驱动 (mvc注解,强制三大组件工作 等其他作用)-->
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven>
+        <!--配置全局响应乱码处理-->
+        <mvc:message-converters>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="defaultCharset" value="UTF-8"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
     
     <!--放行指定类型静态资源配置方式-->
     <!--
