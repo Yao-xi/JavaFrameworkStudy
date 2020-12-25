@@ -13,6 +13,8 @@
         <module name="day03_spring_aop" />
         <module name="day05_springmvc" />
         <module name="ExerciseDay01_spring2" />
+        <module name="day06_springmvc_web" />
+        <module name="day06_springmvc_server" />
         <module name="day04_spring" />
       </profile>
     </annotationProcessing>
@@ -25,6 +27,8 @@
       <module name="day03_spring_aop" target="1.8" />
       <module name="day04_spring" target="1.8" />
       <module name="day05_springmvc" target="1.8" />
+      <module name="day06_springmvc_server" target="1.8" />
+      <module name="day06_springmvc_web" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />
