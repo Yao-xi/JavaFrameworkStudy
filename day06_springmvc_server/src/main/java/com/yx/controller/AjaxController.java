@@ -1,5 +1,7 @@
 package com.yx.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,6 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/ajax")
@@ -31,8 +34,11 @@ public class AjaxController {
     
     @RequestMapping("/show3")
     @ResponseBody
-    public String show3(@RequestBody String str) {
+    public String show3(@RequestBody String str) throws JsonProcessingException {
         System.out.println(str);
+        ObjectMapper om = new ObjectMapper();
+        Map<String, String> map = (Map<String, String>) om.readValue(str, Map.class);
+        System.out.println(map);
         return str;
     }
     
