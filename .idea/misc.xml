@@ -14,6 +14,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day05_springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/day06_springmvc_server" />
     <file type="web" url="file://$PROJECT_DIR$/day06_springmvc_web" />
+    <file type="web" url="file://$PROJECT_DIR$/day07_springmvc_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/destaetadafaf" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring2" />
@@ -68,16 +69,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/day01_spring/pom.xml" />
         <option value="$PROJECT_DIR$/aaa/pom.xml" />
-        <option value="$PROJECT_DIR$/ExerciseDay01_spring/pom.xml" />
-        <option value="$PROJECT_DIR$/ExerciseDay01_spring2/pom.xml" />
-        <option value="$PROJECT_DIR$/day02_spring/pom.xml" />
-        <option value="$PROJECT_DIR$/day03_spring_aop/pom.xml" />
-        <option value="$PROJECT_DIR$/day04_spring/pom.xml" />
-        <option value="$PROJECT_DIR$/day05_springmvc/pom.xml" />
-        <option value="$PROJECT_DIR$/day06_springmvc_web/pom.xml" />
-        <option value="$PROJECT_DIR$/day06_springmvc_server/pom.xml" />
+        <option value="$PROJECT_DIR$/day07_springmvc_ssm/pom.xml" />
       </list>
     </option>
   </component>

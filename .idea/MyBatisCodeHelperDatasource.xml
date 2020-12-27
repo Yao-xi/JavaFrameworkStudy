@@ -4,13 +4,14 @@
     <option name="projectProfile">
       <ProjectProfile>
         <option name="baseClassSearchXml" value="true" />
-        <option name="deleteByPrimayKeyEnabled" value="false" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
         <option name="insertSelectiveMethodEnabled" value="false" />
         <option name="javaMapperPackage" value="com.yx.dao" />
-        <option name="javaMapperPath" value="$PROJECT_DIR$/day03_spring_aop/src/main/java" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
         <option name="javaModelPackage" value="com.yx.domain" />
-        <option name="javaModelPath" value="$PROJECT_DIR$/day03_spring_aop/src/main/java" />
-        <option name="lastDatabaseCrudChooseModuleName" value="day03_spring_aop" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="day07_springmvc_ssm" />
         <option name="lombokAllArgConstructor" value="true" />
         <option name="lombokDataAnnotation" value="true" />
         <option name="lombokNoArgsConstructor" value="true" />
@@ -18,7 +19,6 @@
           <list>
             <option value="findAll" />
             <option value="findById" />
-            <option value="deleteById" />
           </list>
         </option>
         <option name="moduleNameToPackageAndPathMap">
@@ -60,8 +60,26 @@
                   <option name="javaMapperPath" value="$PROJECT_DIR$/day03_spring_aop/src/main/java" />
                   <option name="javaModelPacakge" value="com.yx.domain" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/day03_spring_aop/src/main/java" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/day03_spring_aop/src/main/java" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/day03_spring_aop/src/main/java" />
                   <option name="xmlPackage" value="com.yx.dao" />
                   <option name="xmlPath" value="$PROJECT_DIR$/day03_spring_aop/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="day07_springmvc_ssm">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.yx.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
+                  <option name="javaModelPacakge" value="com.yx.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.yx.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
+                  <option name="javaServicePackage" value="com.yx.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
+                  <option name="xmlPackage" value="com.yx.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/resources" />
                 </UserPackageAndPathInfoByModule>
               </value>
             </entry>
@@ -89,11 +107,31 @@
                 </TableGenerateConfig>
               </value>
             </entry>
+            <entry key="ssm_db:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="User" />
+                  <option name="methodNameList">
+                    <list>
+                      <option value="findByUsernameAndPassword" />
+                    </list>
+                  </option>
+                  <option name="moduleName" value="day07_springmvc_ssm" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
           </map>
         </option>
         <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
         <option name="xmlMapperPackage" value="com.yx.dao" />
-        <option name="xmlMapperPath" value="$PROJECT_DIR$/day03_spring_aop/src/main/resources" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/resources" />
       </ProjectProfile>
     </option>
   </component>

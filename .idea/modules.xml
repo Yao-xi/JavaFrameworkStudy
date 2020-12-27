@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/day05_springmvc/day05_springmvc.iml" filepath="$PROJECT_DIR$/day05_springmvc/day05_springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_springmvc_server/day06_springmvc_server.iml" filepath="$PROJECT_DIR$/day06_springmvc_server/day06_springmvc_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06_springmvc_web/day06_springmvc_web.iml" filepath="$PROJECT_DIR$/day06_springmvc_web/day06_springmvc_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07_springmvc_ssm/day07_springmvc_ssm.iml" filepath="$PROJECT_DIR$/day07_springmvc_ssm/day07_springmvc_ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" filepath="$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" />
     </modules>
   </component>
