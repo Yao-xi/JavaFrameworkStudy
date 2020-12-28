@@ -11,6 +11,7 @@
         <module name="day08_maven_ssm_service" />
         <module name="day08_maven_ssm_pojo" />
         <module name="day08_maven_ssm_controller" />
+        <module name="day07_springmvc_ssm_anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

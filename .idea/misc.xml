@@ -77,6 +77,7 @@
         <option value="$PROJECT_DIR$/day08_maven_ssm_service/pom.xml" />
         <option value="$PROJECT_DIR$/day08_maven_ssm_controller/pom.xml" />
         <option value="$PROJECT_DIR$/day08_maven_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/day07_springmvc_ssm_anno/pom.xml" />
       </list>
     </option>
   </component>
