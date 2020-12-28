@@ -13,6 +13,11 @@
       <module fileurl="file://$PROJECT_DIR$/day06_springmvc_web/day06_springmvc_web.iml" filepath="$PROJECT_DIR$/day06_springmvc_web/day06_springmvc_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07_springmvc_ssm/day07_springmvc_ssm.iml" filepath="$PROJECT_DIR$/day07_springmvc_ssm/day07_springmvc_ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07_springmvc_ssm_anno/day07_springmvc_ssm_anno.iml" filepath="$PROJECT_DIR$/day07_springmvc_ssm_anno/day07_springmvc_ssm_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm/day08_maven_ssm.iml" filepath="$PROJECT_DIR$/day08_maven_ssm/day08_maven_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_controller/day08_maven_ssm_controller.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_controller/day08_maven_ssm_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_dao/day08_maven_ssm_dao.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_dao/day08_maven_ssm_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_pojo/day08_maven_ssm_pojo.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_pojo/day08_maven_ssm_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_service/day08_maven_ssm_service.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_service/day08_maven_ssm_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" filepath="$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" />
     </modules>
   </component>
