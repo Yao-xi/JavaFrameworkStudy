@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day07_springmvc_ssm" />
+        <module name="day07_springmvc_ssm_anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +22,7 @@
       <module name="day06_springmvc_server" target="1.8" />
       <module name="day06_springmvc_web" target="1.8" />
       <module name="day07_springmvc_ssm" target="1.8" />
+      <module name="day07_springmvc_ssm_anno" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />

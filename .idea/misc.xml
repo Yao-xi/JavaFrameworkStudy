@@ -15,6 +15,7 @@
     <file type="web" url="file://$PROJECT_DIR$/day06_springmvc_server" />
     <file type="web" url="file://$PROJECT_DIR$/day06_springmvc_web" />
     <file type="web" url="file://$PROJECT_DIR$/day07_springmvc_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/day07_springmvc_ssm_anno" />
     <file type="web" url="file://$PROJECT_DIR$/destaetadafaf" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring2" />
@@ -70,7 +71,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/aaa/pom.xml" />
-        <option value="$PROJECT_DIR$/day07_springmvc_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/day07_springmvc_ssm_anno/pom.xml" />
       </list>
     </option>
   </component>

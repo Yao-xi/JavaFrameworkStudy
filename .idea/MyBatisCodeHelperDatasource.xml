@@ -15,6 +15,12 @@
         <option name="lombokAllArgConstructor" value="true" />
         <option name="lombokDataAnnotation" value="true" />
         <option name="lombokNoArgsConstructor" value="true" />
+        <option name="mapperFilesFolder" value="D:\Yaoxi\IdeaProjects\heima\Mycodes\JavaFrameworkStudy\day07_springmvc_ssm_anno\src\main\resources\com\itheima\dao" />
+        <option name="mapperFilesFolderList">
+          <list>
+            <option value="D:\Yaoxi\IdeaProjects\heima\Mycodes\JavaFrameworkStudy\day07_springmvc_ssm_anno\src\main\resources\com\itheima\dao" />
+          </list>
+        </option>
         <option name="methodNameForProjectList">
           <list>
             <option value="findAll" />
