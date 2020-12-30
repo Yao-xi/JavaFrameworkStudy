@@ -17,6 +17,9 @@
     <file type="web" url="file://$PROJECT_DIR$/day07_springmvc_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/day07_springmvc_ssm_anno" />
     <file type="web" url="file://$PROJECT_DIR$/day08_maven_ssm_controller" />
+    <file type="web" url="file://$PROJECT_DIR$/day09_dubbo_interface" />
+    <file type="web" url="file://$PROJECT_DIR$/day09_dubbo_service" />
+    <file type="web" url="file://$PROJECT_DIR$/day09_dubbo_web" />
     <file type="web" url="file://$PROJECT_DIR$/destaetadafaf" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring" />
     <file type="web" url="file://$PROJECT_DIR$/ExerciseDay01_spring2" />
@@ -72,12 +75,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/aaa/pom.xml" />
-        <option value="$PROJECT_DIR$/day08_maven_ssm_pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/day08_maven_ssm_dao/pom.xml" />
-        <option value="$PROJECT_DIR$/day08_maven_ssm_service/pom.xml" />
-        <option value="$PROJECT_DIR$/day08_maven_ssm_controller/pom.xml" />
-        <option value="$PROJECT_DIR$/day08_maven_ssm/pom.xml" />
-        <option value="$PROJECT_DIR$/day07_springmvc_ssm_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/day09_dubbo_service/pom.xml" />
+        <option value="$PROJECT_DIR$/day09_dubbo_web/pom.xml" />
+        <option value="$PROJECT_DIR$/day09_dubbo_interface/pom.xml" />
       </list>
     </option>
   </component>

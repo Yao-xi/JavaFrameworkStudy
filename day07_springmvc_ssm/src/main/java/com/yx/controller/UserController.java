@@ -30,6 +30,8 @@ public class UserController {
     @PostMapping
     //使用@Valid开启校验，使用@Validated也可以开启校验
     //Errors对象用于封装校验结果，如果不满足校验规则，对应的校验结果封装到该对象中，包含校验的属性名和校验不通过返回的消息
+    //如果不获取Errors对象,则方法体不执行直接报错 Errors对象相当于try-catch
+    //可以根据Errors对象信息 判断是否要接收这个未通过校验的值
     public Result insert(@Validated User user, Errors errors) {
         //判定Errors对象中是否存在未通过校验的字段
         if (errors.hasErrors()) {

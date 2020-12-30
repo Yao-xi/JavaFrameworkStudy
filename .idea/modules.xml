@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_dao/day08_maven_ssm_dao.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_dao/day08_maven_ssm_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_pojo/day08_maven_ssm_pojo.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_pojo/day08_maven_ssm_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08_maven_ssm_service/day08_maven_ssm_service.iml" filepath="$PROJECT_DIR$/day08_maven_ssm_service/day08_maven_ssm_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_dubbo_interface/day09_dubbo_interface.iml" filepath="$PROJECT_DIR$/day09_dubbo_interface/day09_dubbo_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_dubbo_service/day09_dubbo_service.iml" filepath="$PROJECT_DIR$/day09_dubbo_service/day09_dubbo_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09_dubbo_web/day09_dubbo_web.iml" filepath="$PROJECT_DIR$/day09_dubbo_web/day09_dubbo_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" filepath="$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" />
     </modules>
   </component>

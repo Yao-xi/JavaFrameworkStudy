@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    
+    <!-- 当前应用名称，用于注册中心计算应用间依赖关系，注意：消费者和提供者应用名不要一样 -->
+    <dubbo:application name="dubbo-service1">
+        <!--监控中心端口号(实际开发中不需要配置)-->
+        <dubbo:parameter key="qos.port" value="11112"/>
+    </dubbo:application>
+    <!-- 连接服务注册中心zookeeper ip为zookeeper所在服务器的ip地址-->
+    <dubbo:registry address="zookeeper://192.168.111.132:2181"/>
+    <dubbo:metadata-report address="zookeeper://192.168.111.132:2181"/>
+    <!-- 注册  协议和port   端口默认是20880 -->
+    <dubbo:protocol name="dubbo" port="20881"></dubbo:protocol>
+    
+    <!-- 扫描指定包，加上@Service注解的类会被发布为服务  -->
+    <dubbo:annotation package="com.yx.service.impl"/>
+</beans>

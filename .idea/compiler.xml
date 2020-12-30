@@ -7,10 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day08_maven_ssm_dao" />
-        <module name="day08_maven_ssm_service" />
-        <module name="day08_maven_ssm_pojo" />
-        <module name="day08_maven_ssm_controller" />
+        <module name="day09_dubbo_service" />
+        <module name="day09_dubbo_interface" />
+        <module name="day09_dubbo_web" />
         <module name="day07_springmvc_ssm_anno" />
       </profile>
     </annotationProcessing>
@@ -32,6 +31,9 @@
       <module name="day08_maven_ssm_dao" target="1.8" />
       <module name="day08_maven_ssm_pojo" target="1.8" />
       <module name="day08_maven_ssm_service" target="1.8" />
+      <module name="day09_dubbo_interface" target="1.8" />
+      <module name="day09_dubbo_service" target="1.8" />
+      <module name="day09_dubbo_web" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />
