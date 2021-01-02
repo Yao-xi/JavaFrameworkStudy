@@ -7,9 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day09_dubbo_service" />
-        <module name="day09_dubbo_interface" />
-        <module name="day09_dubbo_web" />
+        <module name="day10_zookeeper" />
+        <module name="day11_springboot01" />
         <module name="day07_springmvc_ssm_anno" />
       </profile>
     </annotationProcessing>
@@ -34,6 +33,10 @@
       <module name="day09_dubbo_interface" target="1.8" />
       <module name="day09_dubbo_service" target="1.8" />
       <module name="day09_dubbo_web" target="1.8" />
+      <module name="day10_zookeeper" target="1.8" />
+      <module name="day11_springboot" target="1.8" />
+      <module name="day11_springboot01" target="1.8" />
+      <module name="day11_springboot02" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />
@@ -42,5 +45,12 @@
       <module name="YXArchetype" target="1.8" />
       <module name="YXArchetypetest" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="day11_springboot" options="-parameters" />
+      <module name="day11_springboot01" options="-parameters" />
+      <module name="day11_springboot02" options="-parameters" />
+    </option>
   </component>
 </project>

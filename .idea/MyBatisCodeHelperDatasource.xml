@@ -3,15 +3,16 @@
   <component name="MyBatisCodeHelperDatasource">
     <option name="projectProfile">
       <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
         <option name="baseClassSearchXml" value="true" />
         <option name="generateService" value="true" />
         <option name="generateServiceInterface" value="true" />
         <option name="insertSelectiveMethodEnabled" value="false" />
         <option name="javaMapperPackage" value="com.yx.dao" />
-        <option name="javaMapperPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/day11_springboot01/src/main/java" />
         <option name="javaModelPackage" value="com.yx.domain" />
-        <option name="javaModelPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/java" />
-        <option name="lastDatabaseCrudChooseModuleName" value="day07_springmvc_ssm" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/day11_springboot01/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="day11_springboot01" />
         <option name="lombokAllArgConstructor" value="true" />
         <option name="lombokDataAnnotation" value="true" />
         <option name="lombokNoArgsConstructor" value="true" />
@@ -89,6 +90,22 @@
                 </UserPackageAndPathInfoByModule>
               </value>
             </entry>
+            <entry key="day11_springboot01">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.yx.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/day11_springboot01/src/main/java" />
+                  <option name="javaModelPacakge" value="com.yx.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/day11_springboot01/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.yx.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/day11_springboot01/src/main/java" />
+                  <option name="javaServicePackage" value="com.yx.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/day11_springboot01/src/main/java" />
+                  <option name="xmlPackage" value="com.yx.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/day11_springboot01/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
           </map>
         </option>
         <option name="mybatisPlusStaticField" value="false" />
@@ -124,7 +141,7 @@
                       <option value="findByUsernameAndPassword" />
                     </list>
                   </option>
-                  <option name="moduleName" value="day07_springmvc_ssm" />
+                  <option name="moduleName" value="day11_springboot01" />
                   <option name="selectByPrimaryKeyEnabled" value="false" />
                   <option name="sequenceColumn" value="" />
                   <option name="sequenceId" value="" />
@@ -137,7 +154,7 @@
         </option>
         <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
         <option name="xmlMapperPackage" value="com.yx.dao" />
-        <option name="xmlMapperPath" value="$PROJECT_DIR$/day07_springmvc_ssm/src/main/resources" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/day11_springboot01/src/main/resources" />
       </ProjectProfile>
     </option>
   </component>

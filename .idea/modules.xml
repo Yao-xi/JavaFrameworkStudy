@@ -21,6 +21,9 @@
       <module fileurl="file://$PROJECT_DIR$/day09_dubbo_interface/day09_dubbo_interface.iml" filepath="$PROJECT_DIR$/day09_dubbo_interface/day09_dubbo_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/day09_dubbo_service/day09_dubbo_service.iml" filepath="$PROJECT_DIR$/day09_dubbo_service/day09_dubbo_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day09_dubbo_web/day09_dubbo_web.iml" filepath="$PROJECT_DIR$/day09_dubbo_web/day09_dubbo_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10_zookeeper/day10_zookeeper.iml" filepath="$PROJECT_DIR$/day10_zookeeper/day10_zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11_springboot/day11_springboot.iml" filepath="$PROJECT_DIR$/day11_springboot/day11_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11_springboot01/day11_springboot01.iml" filepath="$PROJECT_DIR$/day11_springboot01/day11_springboot01.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" filepath="$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" />
     </modules>
   </component>
