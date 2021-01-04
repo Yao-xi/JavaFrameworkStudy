@@ -77,6 +77,8 @@
         <option value="$PROJECT_DIR$/aaa/pom.xml" />
         <option value="$PROJECT_DIR$/day10_zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/day11_springboot01/pom.xml" />
+        <option value="$PROJECT_DIR$/day12_springboot01/pom.xml" />
+        <option value="$PROJECT_DIR$/day13-springboot-admin-server/pom.xml" />
       </list>
     </option>
   </component>

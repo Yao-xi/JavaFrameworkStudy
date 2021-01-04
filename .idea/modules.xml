@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/day10_zookeeper/day10_zookeeper.iml" filepath="$PROJECT_DIR$/day10_zookeeper/day10_zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11_springboot/day11_springboot.iml" filepath="$PROJECT_DIR$/day11_springboot/day11_springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/day12_springboot01/day12_springboot01.iml" filepath="$PROJECT_DIR$/day12_springboot01/day12_springboot01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13-springboot-admin-server/day13-springboot-admin-server.iml" filepath="$PROJECT_DIR$/day13-springboot-admin-server/day13-springboot-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" filepath="$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" />
     </modules>
   </component>

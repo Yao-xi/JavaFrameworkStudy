@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="configs">
+      <map>
+        <entry key="1">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="" />
+              <option name="comment" value="localhost" />
+              <option name="host" value="localhost" />
+              <option name="id" value="1" />
+              <option name="name" value="localhost" />
+              <option name="port" value="63799" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="" />
+              <option name="comment" value="localhost" />
+              <option name="host" value="localhost" />
+              <option name="id" value="3" />
+              <option name="name" value="localhost" />
+              <option name="port" value="63799" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="7">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="root" />
+              <option name="comment" value="localhost" />
+              <option name="host" value="localhost" />
+              <option name="id" value="7" />
+              <option name="name" value="localhost" />
+              <option name="port" value="6379" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="9">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="9" />
+              <option name="name" value="localhost" />
+              <option name="port" value="6379" />
+            </RedisServerNode>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="configList">
+      <list>
+        <RedisServerNode>
+          <option name="auth" value="" />
+          <option name="comment" value="localhost" />
+          <option name="host" value="localhost" />
+          <option name="id" value="1" />
+          <option name="name" value="localhost" />
+          <option name="port" value="63799" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="" />
+          <option name="comment" value="localhost" />
+          <option name="host" value="localhost" />
+          <option name="id" value="3" />
+          <option name="name" value="localhost" />
+          <option name="port" value="63799" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="root" />
+          <option name="comment" value="localhost" />
+          <option name="host" value="localhost" />
+          <option name="id" value="7" />
+          <option name="name" value="localhost" />
+          <option name="port" value="6379" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="9" />
+          <option name="name" value="localhost" />
+          <option name="port" value="6379" />
+        </RedisServerNode>
+      </list>
+    </option>
+    <option name="id" value="13" />
+    <option name="lastRedisServerNode">
+      <RedisServerNode>
+        <option name="auth" value="" />
+        <option name="comment" value="" />
+        <option name="host" value="localhost" />
+        <option name="id" value="9" />
+        <option name="name" value="localhost" />
+        <option name="port" value="6379" />
+      </RedisServerNode>
+    </option>
+  </component>
+</project>

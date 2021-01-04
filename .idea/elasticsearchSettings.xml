@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ElasticsearchConfiguration">
+    <option name="clusterConfigurations">
+      <map>
+        <entry key="91833036-0654-4c25-9487-7c14252cde39">
+          <value>
+            <e>
+              <option name="id" value="91833036-0654-4c25-9487-7c14252cde39" />
+              <option name="label" value="@192.168.111.132:9200" />
+              <option name="url" value="http://192.168.111.132:9200" />
+            </e>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="requestHistory">
+      <map>
+        <entry key="91833036-0654-4c25-9487-7c14252cde39" value="W3sicGF0aCI6Ii9nb29kcy9fc2VhcmNoIiwiYm9keSI6IiIsIm1ldGhvZCI6IkdFVCJ9LHsicGF0aCI6Ii9fY2F0IiwiYm9keSI6IiIsIm1ldGhvZCI6IkdFVCJ9LHsicGF0aCI6Ii9nb29kcyIsImJvZHkiOiIiLCJtZXRob2QiOiJHRVQifSx7InBhdGgiOiIvZ29vZHMvX3NlYXJjaCIsImJvZHkiOiJ7XG4gIFwiZnJvbVwiOiAwLFxuICBcInNpemVcIjogMTQ2LFxuICBcInF1ZXJ5XCI6IHtcbiAgICBcImJvb2xcIjoge1xuICAgICAgXCJtdXN0XCI6IFtcbiAgICAgICAge1xuICAgICAgICAgIFwibWF0Y2hcIjoge1xuICAgICAgICAgICAgXCJ0aXRsZVwiOiBcIueyieiJsuWNjuS4ulwiXG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICBdLFxuICAgICAgXCJtdXN0X25vdFwiOiBbXSxcbiAgICAgIFwic2hvdWxkXCI6IFtdXG4gICAgfVxuICB9LFxuICBcImFnZ3NcIjoge31cbn0iLCJtZXRob2QiOiJQT1NUIn0seyJwYXRoIjoiL2dvb2RzL19zZWFyY2giLCJib2R5Ijoie1xuICBcInF1ZXJ5XCI6IHtcbiAgICBcImJvb2xcIjoge1xuICAgICAgXCJtdXN0XCI6IFtcbiAgICAgICAge1xuICAgICAgICAgIFwibWF0Y2hcIjoge1xuICAgICAgICAgICAgXCJ0aXRsZVwiOiBcIueZveiJsuWNjuS4ujVHXCJcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgIF0sXG4gICAgICBcIm11c3Rfbm90XCI6IFtdLFxuICAgICAgXCJzaG91bGRcIjogW11cbiAgICB9XG4gIH0sXG4gIFwiYWdnc1wiOiB7fVxufSIsIm1ldGhvZCI6IlBPU1QifSx7InBhdGgiOiIvZ29vZHMvX3NlYXJjaCIsImJvZHkiOiJ7XG4gIFwicXVlcnlcIjoge1xuICAgIFwiYm9vbFwiOiB7XG4gICAgICBcIm11c3RcIjogW1xuICAgICAgICB7XG4gICAgICAgICAgXCJtYXRjaFwiOiB7XG4gICAgICAgICAgICBcInRpdGxlXCI6IFwi55m96Imy5Y2O5Li6NUdcIlxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgXSxcbiAgICAgIFwibXVzdF9ub3RcIjogW10sXG4gICAgICBcInNob3VsZFwiOiBbXVxuICAgIH1cbiAgfSxcbiAgXCJmcm9tXCI6IDAsXG4gIFwic2l6ZVwiOiAxMCxcbiAgXCJzb3J0XCI6IFtdLFxuICBcImFnZ3NcIjoge31cbn0iLCJtZXRob2QiOiJQT1NUIn0seyJwYXRoIjoiL19hbGwiLCJib2R5Ijoie1xuICBcImZyb21cIjogMCxcbiAgXCJzaXplXCI6IDIwLFxuICBcInF1ZXJ5XCI6IHtcbiAgICBcIm1hdGNoX2FsbFwiOiB7fVxuICB9XG59IiwibWV0aG9kIjoiR0VUIn0seyJwYXRoIjoiLy5raWJhbmFfMS9fc2VhcmNoIiwiYm9keSI6IntcbiAgXCJmcm9tXCI6IDAsXG4gIFwic2l6ZVwiOiAyMCxcbiAgXCJxdWVyeVwiOiB7XG4gICAgXCJtYXRjaF9hbGxcIjoge31cbiAgfVxufSIsIm1ldGhvZCI6IkdFVCJ9LHsicGF0aCI6Ii9nb29kcy9fc2VhcmNoIiwiYm9keSI6IntcbiAgXCJmcm9tXCI6IDAsXG4gIFwic2l6ZVwiOiAyMCxcbiAgXCJxdWVyeVwiOiB7XG4gICAgXCJtYXRjaF9hbGxcIjoge31cbiAgfVxufSIsIm1ldGhvZCI6IkdFVCJ9XQ==" />
+      </map>
+    </option>
+  </component>
+</project>
