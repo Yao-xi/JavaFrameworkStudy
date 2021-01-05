@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 
-import java.util.Date;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 @SpringBootTest
 public class RedisTest {
@@ -17,15 +17,15 @@ public class RedisTest {
     @Test
     public void testSet() {
         //存入数据
-        redisTemplate.boundValueOps("name" + new Date().getTime()).set("zhangsan");
+        redisTemplate.boundValueOps("name").set("zhangsan", 3, TimeUnit.MINUTES);
     }
     
     @Test
     public void testGet() {
         Set<String> keys = redisTemplate.keys("*");
         System.out.println(keys);
-        
-        String s = redisTemplate.opsForValue().get("name1609589729081");
+        redisTemplate.boundValueOps("name");
+        String s = redisTemplate.boundValueOps("name").get();
         System.out.println(s);
     }
 }
