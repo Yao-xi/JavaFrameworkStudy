@@ -4,7 +4,6 @@
     <option name="serverConfigurations">
       <list>
         <ServerConfiguration>
-          <option name="connectOnIdeStartup" value="true" />
           <option name="databaseVendor" value="DatabaseVendor{name='RedisDB'}" />
           <option name="defaultKeyFilter" value="*" />
           <option name="label" value="localhost" />
@@ -13,6 +12,16 @@
             <SercurityInfo />
           </option>
           <option name="serverUrl" value="localhost:6379" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="databaseVendor" value="DatabaseVendor{name='RedisDB'}" />
+          <option name="defaultKeyFilter" value="*" />
+          <option name="label" value="106.12.112.198" />
+          <option name="password" value="" />
+          <option name="sercurityInfo">
+            <SercurityInfo />
+          </option>
+          <option name="serverUrl" value="106.12.112.198:6379" />
         </ServerConfiguration>
       </list>
     </option>

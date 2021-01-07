@@ -8,6 +8,9 @@ spring:
   redis:
     host: 127.0.0.1 # redis的主机ip
     port: 6379
+  elasticsearch:
+    rest:
+      uris: 192.168.111.132:9200
 #  boot:
 #    admin:
 #      client:
@@ -29,6 +32,4 @@ logging:
   level:
     com.yx: debug
     org.springframework: info
-
-
 
