@@ -10,7 +10,7 @@ spring:
     port: 6379
   elasticsearch:
     rest:
-      uris: 192.168.111.132:9200
+      uris: 192.168.111.134:9200
 #  boot:
 #    admin:
 #      client:
@@ -32,4 +32,5 @@ logging:
   level:
     com.yx: debug
     org.springframework: info
+
 

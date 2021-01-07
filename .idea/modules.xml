@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/day12_springboot01/day12_springboot01.iml" filepath="$PROJECT_DIR$/day12_springboot01/day12_springboot01.iml" />
       <module fileurl="file://$PROJECT_DIR$/day13-springboot-admin-server/day13-springboot-admin-server.iml" filepath="$PROJECT_DIR$/day13-springboot-admin-server/day13-springboot-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/day15-elasticsearch/day15-elasticsearch.iml" filepath="$PROJECT_DIR$/day15-elasticsearch/day15-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16-rocketmq/day16-rocketmq.iml" filepath="$PROJECT_DIR$/day16-rocketmq/day16-rocketmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" filepath="$PROJECT_DIR$/../JavaBasic80/MyProjects/mindMap/mindMap.iml" />
     </modules>
   </component>
