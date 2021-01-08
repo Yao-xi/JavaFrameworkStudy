@@ -17,7 +17,7 @@
           <option name="databaseVendor" value="DatabaseVendor{name='RedisDB'}" />
           <option name="defaultKeyFilter" value="*" />
           <option name="label" value="106.12.112.198" />
-          <option name="password" value="" />
+          <option name="password" value="iloveredis" />
           <option name="sercurityInfo">
             <SercurityInfo />
           </option>
