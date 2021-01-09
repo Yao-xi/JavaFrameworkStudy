@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="day17-rocketmq" />
         <module name="day15-elasticsearch" />
         <module name="day07_springmvc_ssm_anno" />
-        <module name="day16-rocketmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +41,7 @@
       <module name="day13-springboot-admin-server" target="1.8" />
       <module name="day15-elasticsearch" target="1.8" />
       <module name="day16-rocketmq" target="1.8" />
+      <module name="day17-rocketmq" target="1.8" />
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />

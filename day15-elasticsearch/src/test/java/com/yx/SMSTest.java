@@ -15,12 +15,14 @@ public class SMSTest {
     /* 短信应用 ID: 在 [短信控制台] 添加应用后生成的实际 SDKAppID，例如1400006666 */
     String appid = "1400471795";
     /* 短信签名内容: 使用 UTF-8 编码，必须填写已审核通过的签名，可登录 [短信控制台] 查看签名信息 */
-    String sign = "土拨鼠搞事情";
+    String sign = "灵韵梦声";
     /* 模板 ID: 必须填写已审核通过的模板 ID，可登录 [短信控制台] 查看模板 ID */
     String templateID = "837429";
     /* 下发手机号码，采用 e.164 标准，+[国家或地区码][手机号]
      * 例如+8613711112222， 其中前面有一个+号 ，86为国家码，13711112222为手机号，最多不要超过200个手机号*/
-    String[] phoneNumbers = {"+8615670765590"};
+    String[] phoneNumbers = {"+8618538635330"};
+    /* 模板参数: 若无模板参数，则设置为空*/
+    String[] templateParams = {"8888"};
     
     @Test
     public void testSend() {
@@ -50,8 +52,6 @@ public class SMSTest {
             
             req.setTemplateID(templateID);
             req.setPhoneNumberSet(phoneNumbers);
-            /* 模板参数: 若无模板参数，则设置为空*/
-            String[] templateParams = {"1234"};
             req.setTemplateParamSet(templateParams);
             
             /* 通过 client 对象调用 SendSms 方法发起请求。注意请求方法名与请求对象是对应的
