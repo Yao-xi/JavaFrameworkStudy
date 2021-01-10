@@ -21,4 +21,8 @@ public class UserPlusMapperTest {
         List<User> list = userMapper.selectList(wrapper);
         System.out.println(list);
     }
+    
+    @Test
+    void test01(){
+    }
 }

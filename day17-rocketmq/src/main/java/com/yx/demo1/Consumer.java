@@ -1,4 +1,4 @@
-package com.yx;
+package com.yx.demo1;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -6,6 +6,7 @@ import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.common.message.MessageExt;
 
+import java.util.Date;
 import java.util.List;
 
 public class Consumer {
@@ -26,7 +27,7 @@ public class Consumer {
                 //遍历消息
                 for (MessageExt msg : list) {
                     // System.out.println("收到消息："+msg);
-                    System.out.println("消息：" + new String(msg.getBody()));
+                    System.out.println("消息：" + new String(msg.getBody())+"\n\t"+new Date());
                 }
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;// 成功处理, mq 收到这个 标记后相同的消息讲不会再次发给消费者
             }
