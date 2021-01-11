@@ -30,7 +30,9 @@ management:
 
 logging:
   level:
-    com.yx: debug
-    org.springframework: info
+    com: error
+    com.yx.dao: debug
+    org.springframework: error
+    org.springframework.test: error
 
 

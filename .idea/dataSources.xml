@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="192.168.111.6 yaoxi" uuid="7e8a9b5f-0b95-43c6-a916-aa4f061ea499">
+    <data-source source="LOCAL" name="@192.168.111.6 yaoxi" uuid="7e8a9b5f-0b95-43c6-a916-aa4f061ea499">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.111.6:3306</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="9cfc8515-5091-46a6-8d3c-1a03e9d906bf">
+    <data-source source="LOCAL" name="@106.12.112.198 yaoxi" uuid="327d0ac8-e5c6-4057-b38d-8b074204e442">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://106.12.112.198:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="782b091e-6a52-4068-a842-15ac423bb722">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
@@ -16,27 +23,6 @@
       <driver-properties>
         <property name="serverTimezone" value="CST" />
       </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="@106.12.112.198 yaoxi" uuid="b0a32306-42e0-43d8-adf5-76bb06fbac03">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://106.12.112.198:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="@106.12.112.198 root" uuid="2b312bd4-b7fd-4fa6-9d0e-394918282dad">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://106.12.112.198:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="@106.12.112.198 test" uuid="3abf079c-7538-4181-a3cb-167a54b04e17">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://106.12.112.198:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
 </project>
