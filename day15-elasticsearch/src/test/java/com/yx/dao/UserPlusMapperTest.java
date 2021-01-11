@@ -1,6 +1,8 @@
 package com.yx.dao;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yx.domain.User;
 import org.junit.jupiter.api.Test;
@@ -42,14 +44,47 @@ public class UserPlusMapperTest {
     
     @Test
     void test03() {
-        int i = userMapper.insert(new User(null, "aaaaab", "aaa",
-                                           "aaa", 0, new Date()));
+        User user = new User();
+        user.setUsername("bab");
+        user.setPassword("aaa");
+        user.setNickname("aaa");
+        user.setGender(0);
+        user.setBirthday(new Date());
+        
+        int i = userMapper.insert(user);
         System.out.println("已更新: " + i);
     }
     
     @Test
     void test04() {
         Page<User> userPage = userMapper.selectPage(new Page<>(1, 2), null);
-        System.out.println(userPage);
+        System.out.println(userPage.getRecords());
+    }
+    
+    @Test
+    void test05() {
+        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(User::getId, 8);
+        User user = userMapper.selectOne(wrapper);
+        System.out.println(user);
+    }
+    
+    @Test
+    void test06() {
+        User user = new User();
+        user.setUsername("CCC");
+        UpdateWrapper<User> wrapper = new UpdateWrapper<>();
+        wrapper.eq("id", 8);
+        int update = userMapper.update(user, wrapper);
+        System.out.println(update);
+    }
+    
+    @Test
+    void test07() {
+        List<User> list =
+            userMapper.selectList(
+                new QueryWrapper<User>()
+                    .likeRight("username", "zhang"));
+        System.out.println(list);
     }
 }
