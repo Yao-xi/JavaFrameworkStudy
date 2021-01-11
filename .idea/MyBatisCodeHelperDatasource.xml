@@ -9,20 +9,20 @@
         <option name="generateServiceInterface" value="true" />
         <option name="insertSelectiveMethodEnabled" value="false" />
         <option name="javaMapperPackage" value="com.yx.dao" />
-        <option name="javaMapperPath" value="$PROJECT_DIR$/day15-elasticsearch/src/main/java" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/ExerciseDay02/src/main/java" />
         <option name="javaModelPackage" value="com.yx.domain" />
-        <option name="javaModelPath" value="$PROJECT_DIR$/day15-elasticsearch/src/main/java" />
-        <option name="lastDatabaseCrudChooseModuleName" value="day15-elasticsearch" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/ExerciseDay02/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="ExerciseDay02" />
         <option name="lombokAllArgConstructor" value="true" />
         <option name="lombokDataAnnotation" value="true" />
         <option name="lombokNoArgsConstructor" value="true" />
+        <option name="mapperAnnotaion" value="true" />
         <option name="mapperFilesFolder" value="D:\Yaoxi\IdeaProjects\heima\Mycodes\JavaFrameworkStudy\day07_springmvc_ssm_anno\src\main\resources\com\itheima\dao" />
         <option name="mapperFilesFolderList">
           <list>
             <option value="D:\Yaoxi\IdeaProjects\heima\Mycodes\JavaFrameworkStudy\day07_springmvc_ssm_anno\src\main\resources\com\itheima\dao" />
           </list>
         </option>
-        <option name="mapperSuperClass" value="com.baomidou.mybatisplus.core.mapper.BaseMapper" />
         <option name="methodNameForProjectList">
           <list>
             <option value="findAll" />
@@ -42,6 +42,22 @@
                   <option name="javaServicePath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/java" />
                   <option name="xmlPackage" value="com.itheima.dao" />
                   <option name="xmlPath" value="$PROJECT_DIR$/ExerciseDay01_spring2/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="ExerciseDay02">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.yx.dao" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/ExerciseDay02/src/main/java" />
+                  <option name="javaModelPacakge" value="com.yx.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/ExerciseDay02/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.yx.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/ExerciseDay02/src/main/java" />
+                  <option name="javaServicePackage" value="com.yx.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/ExerciseDay02/src/main/java" />
+                  <option name="xmlPackage" value="com.yx.dao" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/ExerciseDay02/src/main/resources" />
                 </UserPackageAndPathInfoByModule>
               </value>
             </entry>
@@ -132,6 +148,54 @@
         <option name="selectByPrimaryKeyEnabled" value="false" />
         <option name="tableGenerateConfigs">
           <map>
+            <entry key="cyl_query_test_by_yx:course">
+              <value>
+                <TableGenerateConfig>
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="Course" />
+                  <option name="moduleName" value="ExerciseDay02" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cyl_query_test_by_yx:sc">
+              <value>
+                <TableGenerateConfig>
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="Sc" />
+                  <option name="moduleName" value="ExerciseDay02" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cyl_query_test_by_yx:student">
+              <value>
+                <TableGenerateConfig>
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="Student" />
+                  <option name="moduleName" value="ExerciseDay02" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cyl_query_test_by_yx:teacher">
+              <value>
+                <TableGenerateConfig>
+                  <option name="insertSelectiveMethodEnabled" value="false" />
+                  <option name="javaModelName" value="Teacher" />
+                  <option name="moduleName" value="ExerciseDay02" />
+                  <option name="selectByPrimaryKeyEnabled" value="false" />
+                  <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
             <entry key="db16:user">
               <value>
                 <TableGenerateConfig>
@@ -188,7 +252,7 @@
         <option name="updateByPrimaryKeySelectiveEnabled" value="false" />
         <option name="userMybatisPlus" value="true" />
         <option name="xmlMapperPackage" value="com.yx.dao" />
-        <option name="xmlMapperPath" value="$PROJECT_DIR$/day15-elasticsearch/src/main/resources" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/ExerciseDay02/src/main/resources" />
       </ProjectProfile>
     </option>
   </component>

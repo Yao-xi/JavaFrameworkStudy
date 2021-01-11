@@ -7,9 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day17-rocketmq" />
-        <module name="day15-elasticsearch" />
         <module name="day07_springmvc_ssm_anno" />
+        <module name="ExerciseDay02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +44,7 @@
       <module name="destaetadafaf" target="1.8" />
       <module name="ExerciseDay01_spring" target="1.8" />
       <module name="ExerciseDay01_spring2" target="1.8" />
+      <module name="ExerciseDay02" target="1.8" />
       <module name="testttste" target="1.8" />
       <module name="yx-project" target="1.8" />
       <module name="YXArchetype" target="1.8" />
@@ -53,6 +53,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ExerciseDay02" options="-parameters" />
       <module name="day11_springboot" options="-parameters" />
       <module name="day11_springboot01" options="-parameters" />
       <module name="day11_springboot02" options="-parameters" />

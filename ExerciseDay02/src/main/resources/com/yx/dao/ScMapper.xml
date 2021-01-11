@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yx.dao.ScMapper">
+  <resultMap id="BaseResultMap" type="com.yx.domain.Sc">
+    <!--@mbg.generated-->
+    <!--@Table sc-->
+    <result column="sid" property="sid" />
+    <result column="cid" property="cid" />
+    <result column="score" property="score" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    sid, cid, score
+  </sql>
+  <select id="findAll" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from sc
+    </select>
+</mapper>

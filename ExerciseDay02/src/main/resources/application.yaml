@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.12.112.198:3306/cyl_query_test_by_yx
+    username: yaoxi
+    password: yaoxi
+
+logging:
+  level:
+    org: info
+    com.yx.dao: debug
