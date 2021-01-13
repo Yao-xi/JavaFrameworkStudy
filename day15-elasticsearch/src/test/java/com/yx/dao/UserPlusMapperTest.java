@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 @SpringBootTest
 @EnableTransactionManagement
@@ -86,5 +87,24 @@ public class UserPlusMapperTest {
                 new QueryWrapper<User>()
                     .likeRight("username", "zhang"));
         System.out.println(list);
+    }
+    
+    @Test
+    void test08() {
+        int j = 0;
+        for (int i = 0; i < 1000; i++) {
+            User user = new User();
+            user.setUsername(UUID.randomUUID().toString().replaceAll("-", "").substring(0, 10));
+            user.setPassword("aaa");
+            user.setNickname("aaa");
+            user.setGender(0);
+            user.setBirthday(new Date());
+            try {
+                j += userMapper.insert(user);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("已更新: " + j);
     }
 }

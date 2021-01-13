@@ -22,4 +22,6 @@ public interface UserService {
     
     User login(String username, String password);
     
+    List<User> findLikeName(String username);
+    
 }

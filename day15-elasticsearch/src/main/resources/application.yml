@@ -6,11 +6,12 @@ spring:
     password: yaoxi
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: 127.0.0.1 # redis的主机ip
+#    host: 127.0.0.1 # redis的主机ip
+    host: 127.0.0.1
     port: 6379
-  elasticsearch:
-    rest:
-      uris: 192.168.111.134:9200
+#  elasticsearch:
+#    rest:
+#      uris: 192.168.31.6:9200
 #  boot:
 #    admin:
 #      client:
@@ -30,13 +31,11 @@ management:
 
 logging:
   level:
-    com: error
     com.yx.dao: debug
-    org.springframework: error
-    org.springframework.test: error
+    org.springframework: info
 
 mybatis-plus:
   configuration:
-    log-impl: org.apache.ibatis.logging.log4j.Log4jImpl
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 
