@@ -5,7 +5,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.111.6:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.31.6:3306</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="@106.12.112.198 yaoxi" uuid="327d0ac8-e5c6-4057-b38d-8b074204e442">
       <driver-ref>mysql.8</driver-ref>
