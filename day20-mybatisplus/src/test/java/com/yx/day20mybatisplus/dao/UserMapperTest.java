@@ -15,4 +15,9 @@ public class UserMapperTest {
         User user = userMapper.selectById(1);
         System.out.println(user);
     }
+    
+    @Test
+    public void test01() {
+    
+    }
 }
