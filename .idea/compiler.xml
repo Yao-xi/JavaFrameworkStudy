@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="day07_springmvc_ssm_anno" />
         <module name="day20-mybatisplus" />
+        <module name="ExerciseDay02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
