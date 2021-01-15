@@ -76,7 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/aaa/pom.xml" />
         <option value="$PROJECT_DIR$/day11_springboot01/pom.xml" />
-        <option value="$PROJECT_DIR$/day15-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/day20-mybatisplus/pom.xml" />
       </list>
     </option>
   </component>
